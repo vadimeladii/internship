@@ -40,5 +40,14 @@ public class MainClass {
         System.out.println("Greater than or equal to (8 >= 8) -> " + greaterAndEqual);
         System.out.println("Less than or equal to (6 <= 6) -> " + lessAndEqual);
 
+        LogicalOperator logicalOperator = new LogicalOperator();
+        boolean logicalAnd = logicalOperator.logicalAnd(5, 3, 8, 6);
+        boolean logicalOr = logicalOperator.logicalOr(2, 6, 8, 7);
+        boolean logicalNot = logicalOperator.logicalNot(3, 4, 3, 9);
+
+        System.out.println("----------------- Logical Operators --------------------------");
+        System.out.println("Logical And (5 > 3 && 8 > 6) -> " + logicalAnd);
+        System.out.println("Logical Or (2 > 6 || 8 > 7) -> " + logicalOr);
+        System.out.println("Logical Not !(3 > 4 && 3 > 9) -> " + logicalNot);
     }
 }
