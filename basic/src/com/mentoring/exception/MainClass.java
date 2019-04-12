@@ -37,6 +37,6 @@ public class MainClass {
         } finally {
             System.out.println("The 'try catch' is finished.");
         }
-
+        System.out.println("---------------------------------");
     }
 }
