@@ -1,6 +1,6 @@
 package com.mentoring.attribute;
 
-public class Person {
+class Person {
 
     String fname = "Jon";
     String lname = "Show";
