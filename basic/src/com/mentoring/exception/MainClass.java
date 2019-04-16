@@ -1,6 +1,6 @@
 package com.mentoring.exception;
 
-public class MainClass {
+class MainClass {
 
 /*
     The try statement allows you to define a block of code to be tested for errors while it is being executed.

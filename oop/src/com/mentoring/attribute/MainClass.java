@@ -1,6 +1,6 @@
 package com.mentoring.attribute;
 
-public class MainClass {
+class MainClass {
 
     public static void main(String[] args) {
         Person p1 = new Person();

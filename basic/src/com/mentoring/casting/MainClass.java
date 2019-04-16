@@ -1,6 +1,6 @@
 package com.mentoring.casting;
 
-public class MainClass {
+class MainClass {
 
 /*
     Widening Casting (automatically) - converting a smaller type to a larger type size

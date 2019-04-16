@@ -1,6 +1,6 @@
 package com.mentoring.array;
 
-public class UnidimensionalArray {
+class UnidimensionalArray {
 
 //    To declare an array, define the variable type with square brackets:
 

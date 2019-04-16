@@ -1,6 +1,6 @@
 package com.mentoring.variable;
 
-public class NonPrimitiveDataType {
+class NonPrimitiveDataType {
 
 //    byte     -> Byte
 //    short    -> Short

@@ -1,6 +1,6 @@
 package com.mentoring.method;
 
-public class MainClass {
+class MainClass {
 
 //    A method is a block of code which only runs when it is called.
 
