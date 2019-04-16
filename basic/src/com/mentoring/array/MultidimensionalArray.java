@@ -1,6 +1,6 @@
 package com.mentoring.array;
 
-public class MultidimensionalArray {
+class MultidimensionalArray {
 
 //    To create a two-dimensional array, add each array within its own set of curly braces:
 

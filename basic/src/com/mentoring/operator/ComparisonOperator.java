@@ -1,6 +1,6 @@
 package com.mentoring.operator;
 
-public class ComparisonOperator {
+class ComparisonOperator {
 
 /*
     ==	Equal to	x == y
@@ -11,27 +11,27 @@ public class ComparisonOperator {
     <=	Less than or equal to	x <= y
 */
 
-    public boolean equality(int x, int y) {
+    boolean equality(int x, int y) {
         return x == y;
     }
 
-    public boolean inequality(int x, int y) {
+    boolean inequality(int x, int y) {
         return x != y;
     }
 
-    public boolean greater(int x, int y) {
+    boolean greater(int x, int y) {
         return x > y;
     }
 
-    public boolean less(int x, int y) {
+    boolean less(int x, int y) {
         return x < y;
     }
 
-    public boolean greaterAndEqual(int x, int y) {
+    boolean greaterAndEqual(int x, int y) {
         return x >= y;
     }
 
-    public boolean lessAndEqual(int x, int y) {
+    boolean lessAndEqual(int x, int y) {
         return x <= y;
     }
 }

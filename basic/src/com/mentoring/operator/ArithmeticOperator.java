@@ -1,6 +1,6 @@
 package com.mentoring.operator;
 
-public class ArithmeticOperator {
+class ArithmeticOperator {
 
 /*
     +	Addition	Adds together two values	x + y
@@ -12,31 +12,31 @@ public class ArithmeticOperator {
     --	Decrement	Decreases the value of a variable by 1	--x
 */
 
-    public int addition(int x, int y) {
+    int addition(int x, int y) {
         return x + y;
     }
 
-    public int subtraction(int x, int y) {
+    int subtraction(int x, int y) {
         return x - y;
     }
 
-    public int multiplication(int x, int y) {
+    int multiplication(int x, int y) {
         return x * y;
     }
 
-    public int division(int x, int y) {
+    int division(int x, int y) {
         return x / y;
     }
 
-    public int modulus(int x, int y) {
+    int modulus(int x, int y) {
         return x % y;
     }
 
-    public int increment(int x) {
+    int increment(int x) {
         return ++x;
     }
 
-    public int decrement(int x) {
+    int decrement(int x) {
         return --x;
     }
 }

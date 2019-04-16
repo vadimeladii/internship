@@ -1,6 +1,6 @@
 package com.mentoring.condition;
 
-public class IfElseStatement {
+class IfElseStatement {
 
 /*
     Use IF to specify a block of code to be executed, if a specified condition is true

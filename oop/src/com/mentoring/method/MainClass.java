@@ -1,6 +1,6 @@
 package com.mentoring.method;
 
-public class MainClass {
+class MainClass {
 
     public static void main(String[] args) {
 //        Create an Object

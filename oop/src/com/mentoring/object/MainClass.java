@@ -1,6 +1,6 @@
 package com.mentoring.object;
 
-public class MainClass {
+class MainClass {
 
 /*
     Java is an object-oriented programming language.

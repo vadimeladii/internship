@@ -1,13 +1,13 @@
 package com.mentoring.method;
 
-public class Employee {
+class Employee {
 
     String name = "John";
     int age = 38;
     double salary = 1000;
 
 //    Public method
-    public String print() {
+    String print() {
         return "Employee{" +
                 "name='" + name + '\'' +
                 ", age=" + age +

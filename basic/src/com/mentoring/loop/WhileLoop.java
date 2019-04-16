@@ -1,6 +1,6 @@
 package com.mentoring.loop;
 
-public class WhileLoop {
+class WhileLoop {
 
     public static void main(String[] args) {
 

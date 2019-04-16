@@ -1,6 +1,6 @@
 package com.mentoring.operator;
 
-public class MainClass {
+class MainClass {
 
     public static void main(String[] args) {
 
