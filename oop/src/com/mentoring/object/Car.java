@@ -1,6 +1,6 @@
 package com.mentoring.object;
 
-public class Car {
+class Car {
 
     int weight = 1500;
 }
