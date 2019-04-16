@@ -1,6 +1,6 @@
 package com.mentoring.condition;
 
-public class SwitchStatement {
+class SwitchStatement {
 
 /*
     switch(expression) {

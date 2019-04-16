@@ -1,6 +1,6 @@
 package com.mentoring.operator;
 
-public class LogicalOperator {
+class LogicalOperator {
 
 /*
     && 	Logical and	Returns true if both statements are true  (x > a && y > b);
@@ -8,15 +8,15 @@ public class LogicalOperator {
     !	Logical not	Reverse the result, returns false if the result is true	!(x > a && y > b)
 */
 
-    public boolean logicalAnd(int x, int a, int y, int b) {
+    boolean logicalAnd(int x, int a, int y, int b) {
         return x > a && y > b;
     }
 
-    public boolean logicalOr(int x, int a, int y, int b) {
+    boolean logicalOr(int x, int a, int y, int b) {
         return x > a && y > b;
     }
 
-    public boolean logicalNot(int x, int a, int y, int b)   {
+    boolean logicalNot(int x, int a, int y, int b)   {
         return !(x > a && y > b);
     }
 }

@@ -1,6 +1,6 @@
 package com.mentoring.loop;
 
-public class ForLoop {
+class ForLoop {
 
     public static void main(String[] args) {
 

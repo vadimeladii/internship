@@ -1,6 +1,6 @@
 package com.mentoring.comment;
 
-public class MainClass {
+class MainClass {
 
     public static void main(String[] args) {
 //        This is a comment

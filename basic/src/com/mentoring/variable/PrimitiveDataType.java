@@ -1,6 +1,6 @@
 package com.mentoring.variable;
 
-public class PrimitiveDataType {
+class PrimitiveDataType {
 
 //    Primitive data types - includes byte, short, int, long, float, double, boolean and char
 
