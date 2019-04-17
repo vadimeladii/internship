@@ -13,6 +13,9 @@ public class MainClass {
 
 
     public static void main(String[] args) {
+
+//        Animal myObj = new Animal(); // will generate an error
+
         Pig myPig = new Pig(); // Create a Pig object
         myPig.animalSound();
         myPig.sleep();
