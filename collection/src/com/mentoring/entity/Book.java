@@ -1,4 +1,4 @@
-package com.mentoring.arraylist;
+package com.mentoring.entity;
 
 public class Book {
 
