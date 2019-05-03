@@ -1,8 +1,6 @@
 package com.mentoring.stream;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class MainClass {
@@ -28,6 +26,11 @@ public class MainClass {
         // create a list of integers
         List<Integer> number = Arrays.asList(2, 3, 4, 5);
 
+        List<List<Integer>> lists = List.of(List.of(1, 2, 3), List.of(4, 5, 6), List.of(7, 8, 9));
+
+        Optional<Integer> first = lists.stream().flatMap(n -> n.stream()).findFirst();
+        first.orElse(0);
+
         // demonstration of map method
         List<Integer> square = number.stream().map(x -> x * x).
                 collect(Collectors.toList());
@@ -38,8 +41,7 @@ public class MainClass {
                 Arrays.asList("Reflection", "Collection", "Stream");
 
         // demonstration of filter method
-        List<String> result = names.stream().filter(s -> s.startsWith("S")).
-                collect(Collectors.toList());
+        List<String> result = names.stream().filter(s -> s.startsWith("S")).collect(Collectors.toList());
         System.out.println(result);
 
         // demonstration of sorted method
@@ -49,6 +51,8 @@ public class MainClass {
 
         // create a list of integers
         List<Integer> numbers = Arrays.asList(2, 3, 4, 5, 2);
+
+        numbers.stream().count();
 
         // collect method returns a set
         Set<Integer> squareSet =

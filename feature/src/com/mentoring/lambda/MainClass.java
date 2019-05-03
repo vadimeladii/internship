@@ -1,5 +1,10 @@
 package com.mentoring.lambda;
 
+import java.util.function.Consumer;
+import java.util.function.Function;
+import java.util.function.Predicate;
+import java.util.function.Supplier;
+
 public class MainClass {
 
 /*
@@ -21,7 +26,6 @@ public class MainClass {
 */
 
     public static void main(String[] args) {
-
 //        to create an instance of Runnable
         Runnable o = new Runnable() {
             @Override
