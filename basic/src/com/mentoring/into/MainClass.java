@@ -8,8 +8,5 @@ class MainClass {
         for (String arg : args) {
             System.out.println(arg);
         }
-
-//        java 8
-//        Arrays.stream(args).forEach(System.out::println);
     }
 }
